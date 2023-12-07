@@ -195,6 +195,14 @@ public class ParametrageController {
     }
 
 
+   /* @PostMapping("/typeArticles")
+    public ResponseEntity<TypeArticle> addTypeArticleToFamily(
+            @RequestBody TypeArticle typeArticleRequest) {
+        FamilleArticle familleArticle = testService.getFamilleById(typeArticleRequest.getFamilleArticle().getId());
+        typeArticleRequest.setFamilleArticle(familleArticle);
 
+        // TypeArticle addedTypeArticle = parametrageService.addTypeArticleToFamily(typeArticleRequest);
+        return ResponseEntity.ok(testService.addTypeArticleToFamily(typeArticleRequest));
+    }*/
 
 }

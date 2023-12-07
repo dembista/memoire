@@ -246,6 +246,7 @@ public class ParametrageService {
         TypeArticle typeArticle = new TypeArticle();
         typeArticle.setDesignation(typeArticleRequest.getTypeDesignation());
         typeArticle.setDescription(typeArticleRequest.getTypeDescription());
+        typeArticle.setFamilleArticle(famille);
 
         famille.addTypeArticle(typeArticle);
         familleArticleRepository.save(famille);
