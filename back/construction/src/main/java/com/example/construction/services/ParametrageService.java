@@ -254,5 +254,6 @@ public class ParametrageService {
         return typeArticle;
     }
 
+    ////tester/////////
 }
 
