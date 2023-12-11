@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import com.example.construction.models.Role;
 import com.example.construction.repositories.RoleRepository;
 
-import lombok.extern.java.Log;
 
 @Service
 public class UtilisateurService {
